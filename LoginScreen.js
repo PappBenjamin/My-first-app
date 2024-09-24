@@ -7,6 +7,7 @@ export default function LoginScreen() {
   const [password, setPassword] = useState('');
   const [failedLoginAttempts, setFailedLoginAttempts] = useState(0);
   const [isBlocked, setIsBlocked] = useState(false);
+  const [IseaserEgg, setEaserEgg] = useState(false);
 
   const passwordGood = ''; // Placeholder, replace with actual logic
   const emailGood = '';
